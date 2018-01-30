@@ -7,7 +7,6 @@ const Router = EmberRouter.extend({
 });
 
 Router.map(function () {
-
   this.route('cars', function () {
     this.route('view', { path: '/:car_id' });
     this.route('create');
